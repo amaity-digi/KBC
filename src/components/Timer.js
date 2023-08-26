@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import useSound from 'use-sound';
-
 
 export default function Timer({setStop,questionNumber}){
     const [timer,setTimer] =useState(30);
